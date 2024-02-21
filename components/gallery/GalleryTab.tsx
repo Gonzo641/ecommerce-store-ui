@@ -13,7 +13,7 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
 }) => {
   return (
     <Tab className="relative flex aspect-square cursor-pointer items-center
-                    justify-center rounded-md bg-white">
+                    justify-center rounded-md">
         {({ selected }) => (
             <div>
                 <span className="absolute h-full w-fulll aspect-square inset-0
