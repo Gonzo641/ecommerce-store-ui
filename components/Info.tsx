@@ -35,7 +35,7 @@ const Info: React.FC<InfoProps> = ({
         <div className="flex flex-col gap-y-6">
             <div className="flex items-center gap-x-4">
                 <h3 className="font-semibold text-black dark:text-white">
-                    Size:
+                    Taille:
                 </h3>
                 <div>
                     {data?.size?.name}
@@ -43,7 +43,7 @@ const Info: React.FC<InfoProps> = ({
             </div>
             <div className="flex items-center gap-x-4">
                 <h3 className="font-semibold text-black dark:text-white">
-                    Color:
+                    Couleur:
                 </h3>
                 <div 
                     className="h-6 w-6 rounded-full border"
@@ -53,7 +53,7 @@ const Info: React.FC<InfoProps> = ({
         </div>
         <div className="mt-10 flex items-center gap-x-3">
             <Button onClick={onAddToCart} className="flex items-center gap-x-2">
-                Add to Cart
+                Ajouté au panier
                 <ShoppingCart size={20} />
             </Button>
         </div>
